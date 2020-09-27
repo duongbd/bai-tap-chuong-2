@@ -1,0 +1,149 @@
+<!-- saved from url=(0089)http://cms.nuce.edu.vn/pluginfile.php/141976/mod_resource/content/1/Execise1.html?embed=1 -->
+<html style="cursor: auto">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- <link type="text/css" rel="stylesheet" href="css/style.css" /> -->
+    <script src="./TH_2.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Roboto, Helvetica, sans-serif;
+      }
+      * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .wrap {
+        width: 980px;
+        margin: 0 auto;
+      }
+      .header {
+        height: 150px;
+        padding: 30px;
+        background-color: #0d7963;
+      }
+      .nav {
+        height: 40px;
+        padding: 10px;
+        background-color: #5a5050;
+      }
+      .content {
+        width: 70%;
+        height: 600px;
+        background-color: #f6f6f6;
+        float: left;
+        padding: 20px;
+        overflow-x: auto;
+        overflow-y: auto;
+      }
+      .sidebar {
+        width: 30%;
+        height: 600px;
+        background-color: #f0f0f0;
+        float: left;
+      }
+      .footer {
+        clear: both;
+        height: 70px;
+        margin-top: 15px;
+        background-color: #0d7963;
+      }
+      .clear {
+        clear: both;
+      }
+      h1 {
+        color: #eee;
+      }
+      .menu-item {
+        font-size: 15pt;
+        color: #5a5050;
+        font-weight: bold;
+        line-height: 30px;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+      }
+      .menu-item:hover {
+        background-color: #f6f6f6;
+      }
+      .menu-link {
+        text-decoration: none;
+        color: #5a5050;
+      }
+      .artical {
+        clear: both;
+        border: 1px solid #ddd;
+        height: 200px;
+        margin-bottom: 10px;
+        background-color: white;
+        padding-left: 30px;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+      }
+      .artical:hover {
+        box-shadow: #ddd 5px 5px 5px 2px;
+      }
+      .img-container {
+        float: left;
+        width: 25%;
+      }
+      .text-container {
+        float: left;
+        width: 75%;
+        padding: 0px 10px 10px 10px;
+      }
+      img {
+        width: 100%;
+        max-height: 150px;
+      }
+      .head-article {
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <h1>Lập trình AJAX với JavaScript</h1>
+      </div>
+      <!-- .header -->
+      <div class="nav"></div>
+      <div class="sidebar">
+        <h3>Thêm mới công việc</h3>
+        <div>
+          <input
+            type="text"
+            placeholder="Tiêu đề"
+            id="txt_title"
+            class="width-max"
+            style="width: 90%; height: 5%"
+          />
+        </div>
+        <div>
+          <textarea
+            type="text"
+            placeholder="Nội dung"
+            id="txt_content"
+            class="width-max"
+            style="resize: none; height: 50%; width: 90%"
+          ></textarea>
+        </div>
+        <div>
+          <button id="btn_add" type="button">Thêm</button>
+        </div>
+      </div>
+      <!-- .sidebar -->
+
+      <div id="list" class="content"></div>
+
+      <!-- .content -->
+
+      <div class="footer"></div>
+      <!-- .footer -->
+    </div>
+    <!-- .wrap -->
+  </body>
+</html>
